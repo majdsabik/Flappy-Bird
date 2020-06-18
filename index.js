@@ -11,10 +11,8 @@ let gameText;
 let score;
 let storage;
 let bestScore;
-let sfxDie;
 let sfxHit;
 let sfxPoint;
-let sfxSwoosh;
 let sfxWing;
 let gameOverPlayed = false;
 
@@ -23,10 +21,8 @@ function preload() {
   spriteImage = loadImage("./assets/sprite.png");
   birdyFont = loadFont("./assets/FlappyBirdy.ttf");
   soundFormats("mp3", "ogg");
-  sfxDie = loadSound("./assets/sfx_die.mp3");
   sfxHit = loadSound("./assets/sfx_hit.mp3");
   sfxPoint = loadSound("./assets/sfx_point.mp3");
-  sfxSwoosh = loadSound("./assets/sfx_swooshing.mp3");
   sfxWing = loadSound("./assets/sfx_wing.mp3");
 }
 
