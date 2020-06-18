@@ -1,0 +1,1 @@
+This is the Flappy Bird game ported to JavaScript using p5js as a project for the Ironhack Bootcamp.

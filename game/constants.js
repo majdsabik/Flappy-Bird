@@ -1,0 +1,13 @@
+const WIDTH = 1000;
+const HEIGHT = 650;
+const MAX_SPACING = 200;
+const MIN_SPACING = 130;
+const MIN_PIPE_HEIGHT = 50;
+const MAX_PIPE_HEIGHT = 350;
+const PIPE_WIDTH = 100;
+const MaxPipeOffset = 400;
+const MinPipeOffset = 300;
+const PipeSpeed = 3;
+const BIRDSIZE = { Width: 70, Height: 50 };
+const BIRDANIMATIONFRAME = [200, 272, 344, 416];
+const FLOOROFFSET = 70;
