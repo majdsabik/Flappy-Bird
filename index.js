@@ -128,7 +128,6 @@ function keyTyped(e) {
     }
   }
   if (e.key === "g") {
-    console.log("Godmode");
     godmode = !godmode;
   }
 }
