@@ -114,20 +114,20 @@ function draw() {
   }
 }
 
-function keyPressed(key) {
-  if (key.key === " ") {
+function keyPressed(e) {
+  if (e.key === " ") {
     if (gameOver === false) bird.jump();
     if (gameStart === false) gameStart = true;
   }
 }
 
-function keyTyped() {
-  if (key.key === "r") {
+function keyTyped(e) {
+  if (e.key === "r") {
     if (gameOver) {
       resetGame();
     }
   }
-  if (key === "g") {
+  if (e.key === "g") {
     console.log("Godmode");
     godmode = !godmode;
   }
