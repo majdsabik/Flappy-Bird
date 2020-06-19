@@ -15,6 +15,7 @@ let sfxHit;
 let sfxPoint;
 let sfxWing;
 let gameOverPlayed = false;
+let godmode = false;
 
 function preload() {
   background = loadImage("./assets/background.png");
@@ -113,14 +114,21 @@ function draw() {
   }
 }
 
-function keyPressed(e) {
-  if (e.key === " ") {
+function keyPressed(key) {
+  if (key.key === " ") {
     if (gameOver === false) bird.jump();
     if (gameStart === false) gameStart = true;
   }
-  if (e.key === "r") {
+}
+
+function keyTyped() {
+  if (key.key === "r") {
     if (gameOver) {
       resetGame();
     }
+  }
+  if (key === "g") {
+    console.log("Godmode");
+    godmode = !godmode;
   }
 }
