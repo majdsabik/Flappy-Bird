@@ -16,7 +16,9 @@ class GameText {
     textSize(40);
     text("Click or", 0, HEIGHT / 2 + 100, WIDTH);
     text("press Space", 0, HEIGHT / 2 + 150, WIDTH);
-    text("to fly", 0, HEIGHT / 2 + 200, WIDTH);
+    text("to fly.", 0, HEIGHT / 2 + 200, WIDTH);
+    text("Press G for", 0, HEIGHT / 2 + 250, WIDTH);
+    text("Godmode", 0, HEIGHT / 2 + 300, WIDTH);
   }
 
   gameOverText(score, bestScore) {
