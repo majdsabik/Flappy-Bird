@@ -14,7 +14,7 @@ class GameText {
 
   startText() {
     textSize(40);
-    text("Click or", 0, HEIGHT / 2 + 100, WIDTH);
+    text("Click or press", 0, HEIGHT / 2 + 100, WIDTH);
     text("press Space", 0, HEIGHT / 2 + 150, WIDTH);
     text("to fly.", 0, HEIGHT / 2 + 200, WIDTH);
     text("Press G for", 0, HEIGHT / 2 + 250, WIDTH);
